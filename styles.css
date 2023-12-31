@@ -1,0 +1,70 @@
+body {
+  background: #352f5b;
+}
+
+.container {
+  max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.todos li {
+  background: #423a6f;
+}
+
+.delete {
+  cursor: pointer;
+  margin-left: 1rem;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+}
+
+.fav {
+  cursor: pointer;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+
+}
+
+.fav:hover {
+  color: rgb(252, 243, 62);
+}
+
+.delete:hover {
+  color: rgb(127, 16, 16);
+}
+
+.fevIcon {
+  cursor: pointer;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+}
+
+.fevIcon:hover {
+  color: rgb(238, 238, 235) !important;
+  background-color: rgb(174, 166, 13) !important;
+}
+
+.currentStatus {
+  font-size: large;
+  font-weight: bolder;
+  padding-block: 10px;
+  min-width: 120px;
+  max-width: 120px;
+  text-align: center;
+}
+
+.todoName {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.afterClikc {
+  color: rgb(174, 166, 13) !important;
+}
